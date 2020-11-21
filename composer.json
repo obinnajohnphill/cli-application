@@ -1,0 +1,38 @@
+{
+    "name": "empire-cli-application",
+    "authors": [
+        {
+            "name": "Obinna Johnphill",
+            "email": "obinna.johnphill@googlemail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3",
+        "laravel-zero/framework": "^8.0",
+      "ext-curl": "*",
+        "ext-json": "*",
+      "guzzlehttp/guzzle": "^6.5"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.4.2",
+        "pestphp/pest": "^0.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "bin": ["empire-cli"]
+}
