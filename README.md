@@ -8,6 +8,9 @@
 
 - RUN:  php empire-cli droid:navigate {name} {path}
 
+ * Example RUN: php empire-cli droid:navigate James flr
+
+
 ##### Test
 - phpUnit Test RUN: ./vendor/bin/pest
 
